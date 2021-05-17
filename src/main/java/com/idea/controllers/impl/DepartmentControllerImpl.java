@@ -93,7 +93,7 @@ public class DepartmentControllerImpl  implements IDepartmentController{
 			return new ResponseEntity<>("OK ", HttpStatus.OK);
 
 		} catch (Exception e) {
-			return new ResponseEntity<>("BAD Request ", HttpStatus.BAD_REQUEST);
+			return new ResponseEntity<>("BAD Request ", HttpStatus.BAD_REQUEST);  
 		}
 	}
 
